@@ -15,7 +15,7 @@ function App() {
     fetch('https://reqres.in/api/users')
       .then((res) => res.json())
       .then((json) => {
-        setUsers(json.data);
+        setUsers(json.data); 
       })
       .catch((err) => {
         console.warn(err);
